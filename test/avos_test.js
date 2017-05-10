@@ -22,4 +22,8 @@ describe('avosTDD', function() {
             }
         ]);
     });
+
+    it('it should display the number of deals we have', function() {
+        assert.equal(howManyDeals(myString).length, 4);
+    });
 });

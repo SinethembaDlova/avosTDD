@@ -23,3 +23,7 @@ function arrayOfObject(splittedString) {
   return objArr;
 }
 arrayOfObject(howManyDeals(myString));
+
+function cheapestAvos() {
+
+}
